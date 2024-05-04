@@ -1,0 +1,60 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	min-height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(https://res.cloudinary.com/gvissing/image/upload/v1683203977/images/3d-hyperspace-background-with-warp-tunnel-effect_yhukl8.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@font-face {
+    font-family: "starwars";
+    src: url("https://res.cloudinary.com/gvissing/raw/upload/v1683203611/fonts/Starjedi_hh2zz4.ttf") format("opentype");
+    font-display: swap;}
+.star-wars {
+	border: 10px solid #FFD700;	
+	border-left: none;
+	border-right: none;
+	text-align: center;
+	h1 {
+		font-family: "starwars";		
+		color: #fff;
+		margin: 0;
+		line-height: 1;
+		font-size: 5rem;
+		padding: 0 0.5em;
+		@media (max-width: 900px) {
+			font-size: 4rem;
+		}
+		@media (max-width: 700px) {
+			font-size: 3rem;
+		}
+		@media (max-width: 500px) {
+			font-size: 2rem;
+		}
+		&:last-child {
+			padding-bottom: 0.2em;
+		}
+	}
+}
+
+a {
+	font-family: "starwars";
+	letter-spacing: 0.5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: #fff;
+	margin: auto;
+	display: inline;
+}
