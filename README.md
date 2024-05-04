@@ -10,4 +10,4 @@ May the fourth be with you! 🤖
 
 Simply navigate to `src`, then download the program files. Enjoy!
 
-CREDITS: [Background Image](https://www.freepik.com/free-photo/3d-hyperspace-background-with-warp-tunnel-effect_8879794.htm)
+CREDITS: [Hyperspace Tunnel](https://www.freepik.com/free-photo/3d-hyperspace-background-with-warp-tunnel-effect_8879794.htm)
